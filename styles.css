@@ -618,20 +618,6 @@ nav.primary-nav a{
 @media (hover: hover) and (pointer: fine){
   .staff-panel:hover .staff-media img{ transform: scale(1.045); }
 }
-.staff-media-num{
-  position: absolute;
-  left: 20px; top: 20px;
-  font-family: var(--font-body);
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-  font-size: var(--fs-meta);
-  letter-spacing: 0.04em;
-  color: #FAF7F1;
-  background: rgba(15,20,26,0.55);
-  backdrop-filter: blur(6px);
-  padding: 6px 12px;
-  border-radius: 999px;
-}
 
 .staff-text{ max-width: 30rem; }
 /* the specialty is what patients scan for: sentence case, meta size, same
